@@ -1,0 +1,64 @@
+/* ~/.config/wofi/style.css */
+
+/* Global Settings */
+* {
+    font-family: "FantasqueSansM Nerd Font", monospace;
+    font-size: 14px;
+}
+
+/* The Main Window */
+window {
+    margin: 0px;
+    border: 1px solid #ffffff; /* White border */
+    background-color: rgba(0, 0, 0, 0.95); /* Pitch black background */
+    border-radius: 0px; /* Square corners */
+}
+
+/* The Input Bar (Search) */
+#input {
+    margin: 5px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+/* The List Items */
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+/* Selected Item (High Contrast Invert) */
+#entry:selected {
+    background-color: #ffffff; /* White background */
+    font-weight: bold;
+}
+
+#entry:selected #text {
+    color: #000000; /* Black text */
+}
+
+/* Icons */
+image {
+    margin-left: 5px;
+    margin-right: 5px;
+}

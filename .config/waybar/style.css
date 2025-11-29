@@ -1,0 +1,47 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "FantasqueSansM Nerd Font";
+    font-size: 12px;
+    min-height: 0;
+}
+
+#taskbar {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#taskbar button {
+    padding: 0 5px;
+    margin: 0 2px;
+    background-color: transparent; 
+}
+#taskbar button.active {
+    background-color: rgb(0, 0, 0);
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    color: #ff1212;
+}
+
+#clock, #pulseaudio, #network, #tray, #custom-docker, #language {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+#custom-notification {
+    padding-right: 15px;
+    padding-left: 10px;
+}

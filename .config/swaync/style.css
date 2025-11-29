@@ -1,0 +1,111 @@
+/* --- Global Settings --- */
+* {
+    font-family: "FantasqueSansM Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* --- The Main Panel (Slide-out) --- */
+.control-center {
+    background: rgba(0, 0, 0, 0.9); /* Matches window#waybar */
+    border: 1px solid #ffffff;       /* The requested border */
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Background of the widget area */
+.control-center-list {
+    background: transparent;
+}
+
+.control-center-list-placeholder {
+    opacity: 0.5;
+}
+
+/* --- The Notification Popups (Toasts) --- */
+.notification {
+    box-shadow: none;
+    margin: 6px;
+    border-radius: 2px; /* Matches your waybar modules radius */
+}
+
+/* The actual background of a notification */
+.notification-row .notification-background {
+    background: rgb(0, 0, 0);       /* Matches your waybar modules */
+    border: 1px solid #ffffff;      /* The requested border */
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.notification-row .notification-background .notification {
+    background: transparent;
+    border: none;
+}
+
+/* --- Text Styling --- */
+.summary {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.body {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.time {
+    font-size: 11px;
+    color: #888888;
+    margin-right: 12px;
+}
+
+/* --- Buttons (Clear All / DND) --- */
+.widget-title > button {
+    background: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.widget-title > button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* --- Do Not Disturb Toggle --- */
+.widget-dnd {
+    background: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    margin: 8px;
+    border-radius: 2px;
+}
+
+.widget-dnd > switch {
+    border-radius: 2px;
+    background: #333333;
+}
+
+.widget-dnd > switch:checked {
+    background: #ff1212; /* Matches your Waybar focused workspace color */
+}
+
+/* --- Media Player (Spotify) --- */
+.widget-mpris {
+    background: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    margin: 8px;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+/* Player Buttons */
+.widget-mpris button {
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.widget-mpris button:hover {
+    background: #333333;
+}
